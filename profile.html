@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook-clone</title>
+    <title>Profile-Page Facebook-clone</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
         integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
@@ -50,9 +50,7 @@
 
             <div class="settings-menu-inner">
                 <div class="user-profile">
-                    
                     <img src="./assets/images/profile-pic.png">
-                   
                     <div>
                         <p>Yogesh More</p>
                         <a href="#">See your profile</a>
@@ -92,50 +90,81 @@
         </div>
     </nav>
 
-    <div class="container">
-        <div class="left-sidebar">
-            <div class="imp-links">
-                <a href="#"><img src="./assets/images/news.png"> Latest News</a>
-                <a href="#"><img src="./assets/images/friends.png"> Friends</a>
-                <a href="#"><img src="./assets/images/group.png"> Group </a>
-                <a href="#"><img src="./assets/images/marketplace.png"> Marketplace </a>
-                <a href="#"><img src="./assets/images/watch.png"> Watch </a>
-                <a href="">See More</a>
-            </div>
-            <div class="shortcut-links">
-                <p>Your Shortcuts</p>
-                <a href="#"><img src="./assets/images/shortcut-1.png"> WDeveloperseb </a>
-                <a href="#"><img src="./assets/images/shortcut-2.png"> Web Design course</a>
-                <a href="#"><img src="./assets/images/shortcut-3.png"> Full Stack Development</a>
-                <a href="#"><img src="./assets/images/shortcut-4.png"> Website Expert </a>
-            </div>
-        </div>
-
-
-        <div class="main-content">
-            <div class="story-gallery">
-                <div class="story story1">
-                    <img src="./assets/images/upload.png">
-                    <p>Post Story</p>
-                </div>
-                <div class="story story2">
+  <div class="profile-container">
+      <img src="./assets/images/cover.png" class="cover-img">
+      <div class="profile-details">
+          <div class="pd-left">
+            <div class="pd-row">
+                <img src="./assets/images/profile.png" class="pd-img">
+                <div>
+                    <h3>Yogesh More</h3>
+                    <p>120 Friends - 20 mutual friends</p>
                     <img src="./assets/images/member-1.png">
-                    <p>Rahul </p>
-                </div>
-                <div class="story story3">
                     <img src="./assets/images/member-2.png">
-                    <p>Rohit </p>
-                </div>
-                <div class="story story4">
                     <img src="./assets/images/member-3.png">
-                    <p>Ganesh </p>
-                </div>
-                <div class="story story5">
                     <img src="./assets/images/member-4.png">
-                    <p>Yogesh </p>
                 </div>
             </div>
-            <div class="write-post-container">
+          </div>
+          <div class="pd-right">
+              <button type="button"><img src="./assets/images/add-friends.png"> Friend</button>
+              <button type="button"><img src="./assets/images/message.png"> Message</button>
+              <br>
+              <a href=""><img src="./assets/images/more.png"></a>
+          </div>
+      </div>
+      <div class="profile-info">
+          <div class="info-col">
+              <div class="profile-intro">
+                  <h3>Intro</h3>
+                  <p class="intro-text">Believe in yourself and you can do unbelievable things. <img src="./assets/images/feeling.png"></p>
+                  <hr>
+                  <ul>
+                      <li><img src="./assets/images/profile-job.png"> Director at 99medisa Ltd</li>
+                      <li><img src="./assets/images/profile-study.png"> Studied at Mumbai University</li>
+                      <li><img src="./assets/images/profile-study.png"> Went To DPS Delhi</li>
+                      <li><img src="./assets/images/profile-home.png"> Lives in Mumbai, India</li>
+                      <li><img src="./assets/images/profile-location.png"> Form Mumbai, India</li>
+                  </ul>
+              </div>
+              <div class="profile-intro">
+                  <div class="title-box">
+                    <h3>Photos</h3>
+                    <a href="">All Photos</a>
+                  </div>
+                 
+                  <div class="photo-box">
+                      <div><img src="./assets/images/photo1.png"></div>
+                      <div><img src="./assets/images/photo2.png"></div>
+                      <div><img src="./assets/images/photo3.png"></div>
+                      <div><img src="./assets/images/photo4.png"></div>
+                      <div><img src="./assets/images/photo5.png"></div>
+                      <div><img src="./assets/images/photo6.png"></div>
+
+                  </div>
+              </div>
+              <div class="profile-intro">
+                <div class="title-box">
+                  <h3>Friends</h3>
+                  <a href="">All Friends</a>
+                </div>
+               <p>120 (20 mutual)</p>
+                <div class="friends-box">
+                    <div><img src="./assets/images/member-1.png"><p>Yogesh More</p></div>
+                    <div><img src="./assets/images/member-2.png"><p>Rohit</p></div>
+                    <div><img src="./assets/images/member-3.png">Rahul</div>
+                    <div><img src="./assets/images/member-4.png">Sachin</div>
+                    <div><img src="./assets/images/member-5.png">Nityanand</div>
+                    <div><img src="./assets/images/member-6.png">Avinash</div>
+                    <div><img src="./assets/images/member-7.png">Vishal</div>
+                    <div><img src="./assets/images/member-8.png">Nivas</div>
+                    <div><img src="./assets/images/member-9.png">Vishnu</div>
+               
+                </div>
+            </div>
+          </div>
+          <div class="post-col">
+              <div class="write-post-container">
                 <div class="user-profile">
                     <img src="./assets/images/profile-pic.png">
                     <div>
@@ -154,12 +183,11 @@
                         <a href="#"><img src="./assets/images/feeling.png"> Feling/Activity</a>
                     </div>
                 </div>
-            </div>
-
-            <div class="post-container">
+              </div>
+              <div class="post-container">
                 <div class="post-row">
                     <div class="user-profile">
-                       <a href="./profile.html"> <img src="./assets/images/profile-pic.png" ></a>
+                        <img src="./assets/images/profile-pic.png">
                         <div>
                             <p>Yogesh More</p>
                             <span>June 24 2022, 13:40 pm</span>
@@ -168,8 +196,7 @@
                     <a href="#"><i class="fas fa-ellipsis-v"></i></a>
                 </div>
 
-                   
-                    <p class="post-text">Subscribe <span >@devils Rider</span> Youtube channel to watch more videos. <a
+                <p class="post-text">Subscribe <span>@devils Rider</span> Youtube channel to watch more videos. <a
                         href="#">#BikeRiders</a> <a href="#">#Youtubechannel </a></p>
                 <img src="./assets/images/feed-image-1.png" class="post-img">
                 <div class="post-row">
@@ -186,7 +213,7 @@
             <div class="post-container">
                 <div class="post-row">
                     <div class="user-profile">
-                       <a href="./profile.html"> <img src="./assets/images/profile-pic.png"></a>
+                        <img src="./assets/images/profile-pic.png">
                         <div>
                             <p>Yogesh More</p>
                             <span>June 24 2022, 13:40 pm</span>
@@ -213,7 +240,7 @@
             <div class="post-container">
                 <div class="post-row">
                     <div class="user-profile">
-                        <a href="./profile.html"><img src="./assets/images/profile-pic.png"></a>
+                        <img src="./assets/images/profile-pic.png">
                         <div>
                             <p>Yogesh More</p>
                             <span>June 24 2022, 13:40 pm</span>
@@ -240,7 +267,7 @@
             <div class="post-container">
                 <div class="post-row">
                     <div class="user-profile">
-                        <a href="./profile.html"><img src="./assets/images/profile-pic.png"></a>
+                        <img src="./assets/images/profile-pic.png">
                         <div>
                             <p>Yogesh More</p>
                             <span>June 24 2022, 13:40 pm</span>
@@ -267,7 +294,7 @@
             <div class="post-container">
                 <div class="post-row">
                     <div class="user-profile">
-                       <a href="./profile.html"><img src="./assets/images/profile-pic.png"></a> 
+                        <img src="./assets/images/profile-pic.png">
                         <div>
                             <p>Yogesh More</p>
                             <span>June 24 2022, 13:40 pm</span>
@@ -291,70 +318,9 @@
                     </div>
                 </div>
             </div>
-            <button type="button" class="load-more-btn">Load More</button>
-
-        </div>
-
-        <div class="right-sidebar">
-            <div class="sidebar-title">
-                <h4>Events</h4>
-                <a href="#">See All</a>
-            </div>
-
-            <div class="event">
-                <div class="left-event">
-                    <h3>18</h3>
-                    <span>March</span>
-                </div>
-                <div class="right-event">
-                    <h4>Social Media</h4>
-                    <p><i class="fas fa-map-marker-alt"></i> Willson Tech Park</p>
-                    <a href="#">More Info</a>
-                </div>
-            </div>
-            <div class="event">
-                <div class="left-event">
-                    <h3>22 </h3>
-                    <span>June</span>
-                </div>
-                <div class="right-event">
-                    <h4>Mobile Marketing </h4>
-                    <p> <i class="fas fa-map-marker-alt"></i> Willson Tech Park</p>
-                    <a href="#">More Info</a>
-                </div>
-            </div>
-            <div class="sidebar-title">
-                <h4>Advvertisement</h4>
-                <a href="#">Close </a>
-            </div>
-            <img src="./assets/images/advertisement.png" class="sidebar-ads">
-            <div class="sidebar-title">
-                <h4>Conversation</h4>
-                <a href="#">Hide Chat </a>
-            </div>
-
-            <div class="online-list">
-                <div class="online">
-                    <img src="./assets/images/member-1.png">
-                </div>
-                <p>Alison Mina</p>
-            </div>
-            <div class="online-list">
-                <div class="online">
-                    <img src="./assets/images/member-2.png">
-                </div>
-                <p>Jackson Aston </p>
-            </div>
-            <div class="online-list">
-                <div class="online">
-                    <img src="./assets/images/member-3.png">
-                </div>
-                <p>Samona Rose</p>
-            </div>
-
-
-        </div>
-    </div>
+          </div>
+      </div>
+  </div>
 
 
     <div class="footer">
